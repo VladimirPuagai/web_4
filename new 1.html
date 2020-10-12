@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+	<title>Список</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+	<main>
+	<div id="background">
+	
+	<header id="shapa">
+    <img style="float:left; margin:10px; width:100px; height:100px;" src="https://picfiles.alphacoders.com/148/148573.jpg" alt="Летопись">
+    <h1>Hallownest maps</h1>
+   </header>
+   <!--/*style="border: 1px solid black; margin:0.8;background-color:rgba(0,0,255,0.3);text-align:center;max-width:400px;margin: 0 auto;margin-top:15px;padding:10px;word-spacing: 30px;font: bold italic 110% serif"*/-->
+	<div id="main">
+	<div class="flexer">
+	<nav >
+	  <a href="#lists" title="Переход к списку">Список</a>
+      <a href="#table" title="Переход к таблице">Таблица</a>
+	  <a href="#forma" title="Переход к форме">Форма</a>
+	</nav>
+	</div>	
+    </div>
+	<div class="w-100"></div>
+	<div class="col-12 col-lg-7 mx-0 mx-lg-auto mb-2 mb-3 ">
+	<div id="list">
+	<h1 id="lists" style="font: normal small-caps 32px/54px fantasy;">Список:</h1>
+	<ol>
+		<li><a href="http://www.example.com" title="Сайт example">Ссылка на главную страницу сайта</a></li>
+		<li><a href="https://www.example.com" title="Сайт example">Безопасная ссылка на главную страницу сайта</a></li>
+		<li><a href="ftp://92.242.39.60/mp3/Leontiy%20Neapolskiy/Zhitie%20Simeona%20Yurodivogo/001.mp3">Ссылка на файл на FTP сервере</a></li>
+		<li><a href="ftp://demo:password@test.rebex.net/pub/example/ConsoleClient.png">Ссылка на файл на FTP сервере с авторизацией</a></li>
+		<li><a href="https://www.fandom.com/explore-ru?uselang=ru#%D0%9A%D0%B8%D0%BD%D0%BE" title="fandom wiki">Ссылка на фрагмент другой страницы</a></li>
+		<li><a href="#Hornet" title="Ссылка на текущую страницу">Ссылка на фрагмент текущей страницы</a></li>
+		<li><a href="https://vk.com/feed?23=17&%5=37">URL cсылка с 2-мя параметрами</a></li>
+		<li><ul>
+			<li><a href="https://www.fandom.com/" title="fandom wiki">Главная FANDOM</a></li>
+			<li><a href="https://enter-the-gungeon.fandom.com/ru/wiki/Enter_the_Gungeon_%D0%92%D0%B8%D0%BA%D0%B8" title="Enter the Gungeon Вики">FANDOM wiki Enter the Gungeon</a></li>
+		</ul></li>
+		<li><a title="Cсылка без href">https://ru.wikipedia.org/wiki/HTML</a></li>
+		<li><a href="">Ссылка с пустым href</a></li>
+		<li><a href="https://www.google.ru/" rel="nofollow">Запрещаем поисковики</a></li>
+		<li><a href="https://www.google.ru/"><noindex>Неиндексируется ссылка</noindex></a></li>
+	<li><p>Контекстную в <a href="https://www.google.ru/">тексте</a> абзаца</p></li>
+		<li><a href="https://naruto.fandom.com/ru/wiki/%D0%9D%D0%B0%D1%80%D1%83%D1%82%D0%BE_%D0%A3%D0%B7%D1%83%D0%BC%D0%B0%D0%BA%D0%B8" id="Hornet"><img src="https://vignette.wikia.nocookie.net/naruto/images/0/08/Naruto_part_III.png/revision/latest?cb=20190730165814&path-prefix=ru" width="186" height="216" title="Наруто"></a></li>
+		<li><img src="https://anime-chan.me/uploads/posts/2016-04/thumbs/1460203957_tbercm8uigu.jpg" width="626" height="348" alt="тетрадьсмерти" usemap="#Navigation">
+		<map id="Navigation" name="Navigation">
+			<area shape="rect" coords="0,100,300,300" href="https://deathnote.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA" alt="Рюк">
+			<area shape="circle" coords="400,160,150" href="https://deathnote.fandom.com/ru/wiki/%D0%9B%D0%B0%D0%B9%D1%82_%D0%AF%D0%B3%D0%B0%D0%BC%D0%B8" alt="ЛайтЯгами">
+		</map></li>
+		<li><a href="page">Страница в текущем каталоге</a></li>
+		<li><a href="about/page">Страница в каталоге about</a></li>
+		<li><a href="../about/page">Страница в каталоге уровнем выше</a></li>
+		<li><a href="../../page1/page2">Страница в каталоге двумя уровнями выше</a></li>
+		<li><a href="/">Ссокращенную на главную</a></li>
+		<li><a href="/nearlymainpage">Сокращенная ссылка на внутреннюю</a></li>
+	</ol>
+	</div>
+	</div>
+	
+	<div class="col-12 col-lg-7 mx-lg-auto order-lg-1 order-sm-2">
+	<p id="table" "style="font: normal small-caps 16px/27px fantasy;">Таблица продуктов</p>
+	<div id="tablebackground">
+    <table class="table table-striped table-dark table-bordered">
+	<thead class="thead-light">
+		<tr>
+			<th>Продукт</th>
+			<th>ид</th>
+			<th>цена</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Петрушка</td><td>307</td><td>24</td></tr>
+		<tr><td>Чеснок</td><td>309</td><td>54</td></tr>
+		<tr><td>Редис</td><td>237</td><td>39</td></tr>
+		<tr><td>Киви</td><td>503</td><td>201</td></tr>
+		<tr><td>Лук</td><td>323</td><td>85</td></tr>
+		<tr><td>Черника</td><td>37</td><td>130</td></tr>
+	</tbody>
+	</table>
+	</div>
+	</div>
+
+	<div class="w-100"></div>
+	<div class="col-12 col-lg-7 mx-lg-auto mb-2 order-lg-2 order-sm-1 ">
+	<div id="list">
+	<h2 id="forma" >Форма</h2>
+	<form action="https://%22/" method="get">
+	<label>
+        Имя:
+        <br/><input name="login" value="" placeholder="Введите имя" required>
+	</label>
+	<br>
+	<label>
+        <br/>e-mail:
+        <br/><input name="email" type="email" value="" placeholder="example@erebor.com">
+    </label>
+	<br>
+	<label>
+        <br/>Дата рождения:
+        <br/><input name="birth" type="date" value="" placeholder="Дата рождения">
+    </label>
+	<br/>Пол:
+	<br/>
+    <label> 
+        <input name="sex" type="radio" value="male">
+        Мужской
+    </label>
+    <label>
+        <input name="sex" type="radio" value="female">
+        Женский
+    </label>
+	<br/>Количество конечностей:
+    <label>
+        <input name="fang" type="radio" value="1">
+        1
+    </label>
+    <label>
+        <input name="fang" type="radio" value="2">
+        2
+    </label>
+    <label>
+        <input name="fang" type="radio" value="3">
+        3
+    </label>
+    <label>
+        <input name="fang" type="radio" value="4">
+        4 
+    </label>
+    <label>
+        <input name="fang" checked type="radio" value="more">
+        5+
+    </label>
+	<br>
+    <label>
+        <br/>Сверхспособности:
+		<br/>
+        <select size="4" name="abilities">
+			<option value="immortality">Бессмертие</option>
+            <option value="invis">Невидимость</option>
+            <option value="tp">Телепортация</option>
+            <option value="levitation">Левитация</option>
+        </select>
+    </label>
+	<br>
+	<label>
+        <br/>Биография:
+        <br/><textarea name="fieldBiograph" placeholder="Напишите свою биографию" cols="50" rows="10"></textarea>
+    </label>
+	<br>
+	<label>
+        <br/>С контрактом ознакомлен: 
+        <input type="checkbox" checked name="checkek" required>
+    </label>
+    <br/><input type="submit" value="Отправить">
+    </form>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	</div>
+   </main>
+  </body>
+</html>
